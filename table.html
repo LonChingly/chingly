@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 80%;
+            height: auto;
+        }
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+        }
+        thead {
+            background-color: rgb(8, 0, 24);
+            color: white;
+            font-size: large;
+        }
+        tfoot {
+            background-color: green;
+            color: white;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" id="headers-id">ID</th>
+                <th scope="col" id="headers-name">NAME</th>
+                <th scope="col" id="headers-plan">PLAN</th>
+                <th scope="col" id="headers-major">MAJOR</th>
+                <th scope="col" id="headers-address">ADDRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tr>
+                <td headers="headers-id">0010782</td>
+                <td headers="header-name">Eng BunKheng</td>
+                <td headers="header-plan">Not sure</td>
+                <td headers="header-major">Computer Science</td>
+                <td headers="header-address">PHONM PENH</td>
+            </tr>
+        </tbody>
+                <tbody>
+                <td headers="headers-id">0011363</td>
+                <td headers="header-name">Lon Chingly</td>
+                <td headers="header-plan">Not sure</td>
+                <td headers="header-major">Business IT</td>
+                <td headers="header-address">PHONM PENH</td>
+            </tr>
+        </tbody>
+                <tbody>
+                <td headers="headers-id">0010753</td>
+                <td headers="header-name">Phat Phoumin</td>
+                <td headers="header-plan">Web Devolopment app devolopment</td>
+                <td headers="header-major">Computer Science</td>
+                <td headers="header-address">PHONM PENH</td>
+            </tr>
+        </tbody>
+    <tfoot>
+        <th scope="row">
+            <td>Total</td>
+            <td>3 ID</td>
+            <td>3 Name</td>
+        </th>
+
+    </tfoot>
+</body>
+</html>
